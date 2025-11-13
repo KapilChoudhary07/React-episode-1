@@ -2,6 +2,7 @@
 
 This project demonstrates how to use React and ReactDOM directly in an HTML file using CDN links, without using bundlers like Webpack, Parcel, or Vite.
 
+
 📄 index.html
 
 The index.html file contains:
@@ -26,7 +27,10 @@ Inside them: <h1>, <h2>, <h3>, <h4> elements
 
 Rendering using:
 
-const root = ReactDOM.createRoot(document.getElementById("root")); root.render(parent);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(parent);
+
+
 
 🚀 How to Run the Project
 
@@ -38,9 +42,14 @@ Double-click index.html → it will open in your browser.
 
 React will render inside the <div id="root">.
 
+
 💡 What You Learned
 
-✔ How to use React without installation ✔ How to add React using CDN links ✔ How to render nested elements with React.createElement ✔ How React renders only inside the root div
+✔ How to use React without installation
+✔ How to add React using CDN links
+✔ How to render nested elements with React.createElement
+✔ How React renders only inside the root div
+
 
 📷 Output Overview
 
